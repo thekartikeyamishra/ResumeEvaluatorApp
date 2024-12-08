@@ -15,6 +15,7 @@ The **Automated Resume Evaluator** is a Python-based tool that evaluates resumes
 
 ## Folder Structure
 
+'''bash
 AutomatedResumeEvaluator/
 ├── data/                         
 │   ├── sample_resumes/           # Sample resumes for testing
@@ -29,8 +30,7 @@ AutomatedResumeEvaluator/
 ├── main.py                       # Main entry point for the application
 ├── requirements.txt              # Required dependencies
 ├── README.md                     # Project documentation
-
-
+'''
 
 ## Installation Instructions
 
