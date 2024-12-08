@@ -15,10 +15,21 @@ The **Automated Resume Evaluator** is a Python-based tool that evaluates resumes
 
 ## Folder Structure
 
-AutomatedResumeEvaluator/ ├── data/
-│ ├── sample_resumes/ # Sample resumes for testing │ ├── sample_job_descriptions/ # Sample job descriptions for testing ├── gui/
-│ ├── init.py # Initializes the GUI module │ ├── evaluator_gui.py # GUI for resume evaluator ├── utils/
-│ ├── init.py # Initializes the utils module │ ├── evaluator_logic.py # Logic for extracting text and calculating ATS score │ ├── ats_score.py # Visualization logic for ATS score ├── main.py # Main entry point for the application ├── requirements.txt # Required dependencies ├── README.md # Project documentation ├── LICENSE # License file
+AutomatedResumeEvaluator/
+├── data/                         
+│   ├── sample_resumes/           # Sample resumes for testing
+│   ├── sample_job_descriptions/  # Sample job descriptions for testing
+├── gui/                          
+│   ├── __init__.py               # Initializes the GUI module
+│   ├── evaluator_gui.py          # GUI for resume evaluator
+├── utils/                         
+│   ├── __init__.py               # Initializes the utils module
+│   ├── evaluator_logic.py        # Logic for extracting text and calculating ATS score
+│   ├── ats_score.py              # Visualization logic for ATS score
+├── main.py                       # Main entry point for the application
+├── requirements.txt              # Required dependencies
+├── README.md                     # Project documentation
+
 
 
 ## Installation Instructions
